@@ -52,24 +52,24 @@ Base aplicada em toda a página conforme plano de refinamento responsivo (sem al
 - **Footer & Header**: Adicionada a logo oficial (`/logo-start.png`) no Header (wordmark) e no Footer, com dimensionamento responsivo proporcional.
 - Validação: lint limpo · build OK (prerender estático) · SSR HTTP 200 (144 KB, copy confirmada via marcadores).
 
+## Concluído nesta sessão (deploy)
+- **GitHub**: Push bem-sucedido via `gh auth setup-git`. Repositório: https://github.com/jassonmouragt-prog/start-molde-f1
+- **Vercel**: Deploy em produção. URL: https://start-molde-f1.vercel.app
+- **Marquee premium**: Implementada entre Hero e Learn — fundo espresso, hairlines ouro, itens "START MOLDE F1" / "SIGNATURE METHOD" / "ESTRUTURA & TÉCNICA" / "RESULTADOS REAIS" / "ALONGAMENTO EM GEL" / "DOMÍNIO DO MOLDE", ícones NailF1, 32s animation, hover pause, fade masks, respeita `prefers-reduced-motion`.
+- Build e lint validados no deploy (0 erros, 2 warnings não-críticos).
+- Todos os assets verificados no ar: logo-start.png, banner-hero-desktop.png, banner-hero-mobile.png, imagem-secao-02.png, imagem-sobre-a-profissional.png.
+
 ## Pendente / próxima ação recomendada
-- **Marquee premium**: Adicionada uma faixa horizontal em movimento contínuo entre o Hero e a seção "Você vai aprender", com a seguinte composição:
-  - Fundo escuro (espresso) com hairlines douradas no topo e na base
-  - Texto em maiúsculas elegantes (Fraunces) com tracking ajustado
-  - Ícones SVG autorais (NailF1) entre os itens
-  - Conteúdo: "START MOLDE F1", "SIGNATURE METHOD", "ESTRUTURA & TÉCNICA", "RESULTADOS REAIS", "ALONGAMENTO EM GEL", "DOMÍNIO DO MOLDE"
-  - Animação suave de marquee (32s por loop, pausável no hover)
-  - Máscaras de fade laterais para transição natural
-  - Velocidade equilibrada (não exagerada)
-  - Respeita `prefers-reduced-motion`
 - Confirmar ritmo de fundos e espaçamentos entre seções com a Carol (último passe mobile feito; estado pronto para review).
-- Substituir `metadataBase` (baseado no Canva) quando houver domínio definitivo de deploy.
-- Deploy (Vercel). NÃO fazer push/commit automático.
+- Substituir `metadataBase` (baseado no Canva) quando houver domínio definitivo de deploy — atualmente usa URL Vercel.
+- Validar responsividade mobile/desktop em browser real (360/390/430/768/1280/1440/1920) — limitação conhecida deste ambiente.
 
 ## Quebrado
 - Nenhum erro conhecido. Lint, build e SSR validados no estado atual.
 
-## Links reais usados
+## Links reais usados e URLs de deploy
+- **GitHub**: https://github.com/jassonmouragt-prog/start-molde-f1
+- **Vercel (produção)**: https://start-molde-f1.vercel.app
 - Checkout Hotmart: `https://pay.hotmart.com/R107505464L`
 - WhatsApp: `https://wa.me/message/R54BGOIKA56BJ1`
 - Preço verdadeiro: De R$ 497 → R$ 297 à vista ou 12x R$ 30,72 (Pix, boleto, cartão).
