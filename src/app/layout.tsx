@@ -22,7 +22,7 @@ const description =
   "Domine o molde F1 do zero ao aperfeiçoamento com Carol Olmena. Estrutura limpa, acoplagem sem lixamento e acabamento natural em todos os tipos de unha. Acesso imediato, certificado incluso e garantia de 7 dias.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://carolmenanails.my.canva.site/startmoldef1"),
+  metadataBase: new URL("https://startmoldef1.com.br"),
   title: {
     default: title,
     template: `%s · ${title}`,
