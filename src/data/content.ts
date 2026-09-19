@@ -43,12 +43,12 @@ export const LEARN_ITEMS = [
     text: "Do básico ao avançado sobre unhas e suas características.",
   },
   {
-    title: "Acoplagem sem lixamento",
-    text: "Aprenda a fazer uma acoplagem perfeita com zero lixamento.",
+    title: "Acoplagem Perfeita",
+    text: "Faça um encaixe perfeito do molde com o mínimo de lixamento",
   },
   {
     title: "Todos os tipos de unhas",
-    text: "Aprenda a trabalhar em todos os tipos de unhas e entregar um acabamento natural.",
+    text: "Aprenda a trabalhar em todos os tipos de unhas e entregar um acabamento natural e resistente",
   },
 ];
 
