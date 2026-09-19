@@ -1,7 +1,6 @@
 import { KEY_APOIO, KEY_BODY, KEY_ITEMS } from "@/data/content";
 import Image from "next/image";
 import { CheckIcon, NailF1 } from "@/components/ui/primitives";
-import { ParallaxImage } from "@/components/ui/ParallaxImage";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function KeySection() {
@@ -70,15 +69,15 @@ export function KeySection() {
                 className="pointer-events-none absolute inset-0 -translate-x-5 -translate-y-5 rounded-[2.2rem] border border-bronze/30 bg-cream/50 lg:-translate-x-6 lg:-translate-y-6 lg:rounded-[2.6rem]"
               />
               <div className="relative overflow-hidden rounded-[2rem] shadow-[inset_0_1px_0_rgba(255,255,255,0.5),0_10px_20px_rgba(36,24,17,0.12),0_60px_110px_-60px_rgba(36,24,17,0.6)] lg:rounded-[2.6rem]">
-<Image
-              src="/imagem-secao-02.png"
-              alt="Estrutura em molde F1 limpa e natural, com acabamento sem lixamento"
-              width={1122}
-              height={1402}
-              className="aspect-[4/3] lg:aspect-[5/4]"
-              sizes="(max-width: 768px) 92vw, 56vw"
-              priority
-            />
+                <Image
+                  src="/imagem-secao-02.jpg"
+                  alt="Unhas alongadas em tom nude com detalhes dourados"
+                  width={1800}
+                  height={2400}
+                  className="h-auto w-full"
+                  sizes="(max-width: 768px) 92vw, 56vw"
+                  priority
+                />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/[0.18] via-transparent to-white/[0.06]" />
                 <div className="pointer-events-none absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-bronze/60 to-transparent" />
                 <div className="pointer-events-none absolute inset-0 rounded-[2rem] ring-1 ring-white/25 ring-inset lg:rounded-[2.6rem]" />
