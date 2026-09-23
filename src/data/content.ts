@@ -1,4 +1,4 @@
-export const CHECKOUT_URL = "https://pay.hotmart.com/R107505464L";
+export const CHECKOUT_URL = "https://pay.kiwify.com.br/8EVZdIl";
 export const WHATSAPP_URL = "https://wa.me/message/R54BGOIKA56BJ1";
 
 /* ---------------------------------- */

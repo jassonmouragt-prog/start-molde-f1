@@ -70,7 +70,7 @@ Base aplicada em toda a página conforme plano de refinamento responsivo (sem al
 ## Links reais usados e URLs de deploy
 - **GitHub**: https://github.com/jassonmouragt-prog/start-molde-f1
 - **Vercel (produção)**: https://start-molde-f1.vercel.app
-- Checkout Hotmart: `https://pay.hotmart.com/R107505464L`
+- Checkout Kiwify: `https://pay.kiwify.com.br/8EVZdIl`
 - WhatsApp: `https://wa.me/message/R54BGOIKA56BJ1`
 - Preço verdadeiro: De R$ 497 → R$ 297 à vista ou 12x R$ 30,72 (Pix, boleto, cartão).
 - Garantia: incondicional de 7 dias · Acesso: imediato, 1 ano · Certificado incluso.
