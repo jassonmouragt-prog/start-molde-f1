@@ -4,6 +4,7 @@ const variants = {
   ink: "btn btn-ink",
   bone: "btn btn-bone",
   bronze: "btn btn-bronze",
+  offer: "btn btn-offer",
   ghost: "btn btn-ghost",
   ghostDark: "btn btn-ghost-dark",
 };

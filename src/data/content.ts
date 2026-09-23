@@ -118,8 +118,8 @@ export const OFFER_ITEMS = [
 
 export const PRICE = {
   from: "R$ 497,00",
-  to: "R$ 297,00",
-  priceNote: "À vista ou em até 12x de R$ 30,72",
+  to: "R$ 247,00",
+  priceNote: "À vista ou em até 12x no cartão",
   payment: "Pix, boleto ou cartão em até 12x",
   security:
     "Ambiente 100% seguro e garantia incondicional de 7 dias",

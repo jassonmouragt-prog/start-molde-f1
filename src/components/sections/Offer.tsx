@@ -23,7 +23,7 @@ export function Offer() {
         aria-hidden="true"
         className="pointer-events-none absolute left-1/2 top-16 hidden -translate-x-1/3 select-none font-display text-[16rem] font-medium italic leading-none tracking-tight text-bone/[0.03] lg:block"
       >
-        297
+        247
       </span>
 
       <div className="container-x relative grid gap-14 lg:grid-cols-12 lg:gap-12">
@@ -136,7 +136,7 @@ export function Offer() {
 
                   <CTA
                     href={CHECKOUT_URL}
-                    variant="bone"
+                    variant="offer"
                     size="lg"
                     className="mt-7 w-full sm:mt-8"
                   >

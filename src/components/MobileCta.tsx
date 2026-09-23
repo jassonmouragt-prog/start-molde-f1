@@ -31,7 +31,7 @@ export function MobileCta() {
         >
           <span className="truncate">{PRICE.cta}</span>
           <span className="flex shrink-0 items-center gap-1.5">
-            <span className="tabular-nums-local text-gold">R$ 297</span>
+            <span className="tabular-nums-local text-gold">{PRICE.to.replace(",00", "")}</span>
             <span className="text-[11px] text-bone/55">ou 12x</span>
             <ArrowIcon className="ml-1 h-3.5 w-3.5 text-gold" />
           </span>
